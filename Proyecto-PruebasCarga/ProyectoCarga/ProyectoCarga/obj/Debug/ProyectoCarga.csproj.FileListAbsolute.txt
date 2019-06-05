@@ -1,0 +1,11 @@
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\bin\Debug\ProyectoCarga.dll
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\bin\Debug\ProyectoCarga.pdb
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\bin\Debug\es\Microsoft.VisualStudio.QualityTools.WebTestFramework.resources.dll
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\obj\Debug\ProyectoCarga.csprojAssemblyReference.cache
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\obj\Debug\ProyectoCarga.csproj.CoreCompileInputs.cache
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\obj\Debug\ProyectoCarga.csproj.CopyComplete
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\obj\Debug\ProyectoCarga.dll
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\obj\Debug\ProyectoCarga.pdb
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\bin\Debug\Proyectos\CrearProyectoTest.webtest
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoPruebas\ProyectoCarga\ProyectoCarga\bin\Debug\Proyectos\CrearProyectoLoadTest.loadtest

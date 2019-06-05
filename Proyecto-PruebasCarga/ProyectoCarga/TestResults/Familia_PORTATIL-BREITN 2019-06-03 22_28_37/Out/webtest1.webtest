@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="0b2ed546-934f-4e87-b6b6-3d3a3f0fa07f" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.7cbb2418-7d71-469d-8828-fa7e78241f0b.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="2a5c7e0b-16c2-4bea-9dff-1651a6e2613b" Version="1.1" Url="http://13.84.151.210/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="ff7711bf-a5bc-46e9-a13f-85353d4205fa" Version="1.1" Url="http://13.84.151.210/fonts/poppins/Poppins-Regular.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://13.84.151.210/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f34a87b3-4a18-43f6-a7ea-b334cc8336a6" Version="1.1" Url="http://13.84.151.210/fonts/montserrat/Montserrat-Bold.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://13.84.151.210/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="bd96a6d3-9e8f-4f13-b054-7bfca5da8444" Version="1.1" Url="http://13.84.151.210/fonts/poppins/Poppins-Bold.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://13.84.151.210/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="b9131a33-0ae8-4b1e-8a01-47cf56850d4f" Version="1.1" Url="http://13.84.151.210/fonts/poppins/Poppins-Medium.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://13.84.151.210/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="4599e800-e74f-469e-8359-f5e9f6ecac98" Version="1.1" Url="http://13.84.151.210/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://13.84.151.210/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extraer campos ocultos" Description="Extraer todos los campos ocultos de la respuesta y colocarlos en el contexto de la prueba.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="5e3d7485-8b46-4c7a-a4ea-54216ef0557b" Version="1.1" Url="http://13.84.151.210/Login/Ingresar" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://13.84.151.210/Home" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="usuario" Value="administrador" RecordedValue="administrador" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="contrasena" Value="administrador" RecordedValue="administrador" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__RequestVerificationToken" Value="{{$HIDDEN1.__RequestVerificationToken}}" RecordedValue="CfDJ8GcB2ECY0KFNlDEYwiWKbz9Q0_M1yZR-ddjJ4arqY15hDVgs4Ymf5CvRgyiNxNYCQlMwwuJKwiKbrfn0lhlqrwFFV3qtfDSO6nNGPkE5gQt7PrMlnjlt62LvqpbMSZhnQKZD10hGG1XCTZZPXbir0x0" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="e7a46396-d937-4d48-9b31-451cf825c5c2" Version="1.1" Url="http://13.84.151.210/Proyectos/Create" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Home" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extraer campos ocultos" Description="Extraer todos los campos ocultos de la respuesta y colocarlos en el contexto de la prueba.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="df3ba0c1-0dbe-4a89-bb9a-e575839abe79" Version="1.1" Url="https://fonts.googleapis.com/css" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos/Create" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="family" Value="Ubuntu:300,400,500,700" RecordedValue="Ubuntu:300,400,500,700" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="display" Value="swap" RecordedValue="swap" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c78a5fe0-360c-4073-99e7-00a81e6c2c23" Version="1.1" Url="https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjsGyL.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos/Create" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1d9be6ff-223a-4d3b-bcc5-eb26b07953e1" Version="1.1" Url="https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw7w.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos/Create" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d99e60d2-daf1-4369-b899-bbc346a78149" Version="1.1" Url="https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jsGyL.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos/Create" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="592f4448-c09f-469c-b6d6-d0404058f216" Version="1.1" Url="https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjsGyL.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos/Create" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d52fd1e7-b0ee-4385-928e-ae0206d60f3f" Version="1.1" Url="https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos/Create" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="be1444bb-9fe3-4b28-a365-d4b0e7e19d53" Version="1.1" Url="https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos/Create" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="0b102f15-b070-4b3a-ba1f-429dd2725659" Version="1.1" Url="https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.eot" ThinkTime="19" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos/Create" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="53e1530b-07bd-47df-b713-b336e700af88" Version="1.1" Url="http://13.84.151.210/Proyectos/Create" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://13.84.151.210/Proyectos" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="3652cdbb-28ec-4fe7-86fd-f89c1496f03d" Version="1.1" Url="https://fonts.googleapis.com/css" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://13.84.151.210/Proyectos" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="family" Value="Ubuntu:300,400,500,700" RecordedValue="Ubuntu:300,400,500,700" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="display" Value="swap" RecordedValue="swap" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="735b9d05-e58c-40ac-8278-d9a063ce1b53" Version="1.1" Url="https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoC1CzjsGyL.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://13.84.151.210/Proyectos" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f2b1d50b-a8d2-4ce1-bb69-f4bcf780d6bb" Version="1.1" Url="https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw7w.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://13.84.151.210/Proyectos" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="56203dd9-b79f-44e2-abcf-a594bc96b3f0" Version="1.1" Url="https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCjC3jsGyL.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://13.84.151.210/Proyectos" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="b616ab96-5455-4f9d-9f15-9dce6744594f" Version="1.1" Url="https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjsGyL.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://13.84.151.210/Proyectos" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <FormPostHttpBody>
+        <FormPostParameter Name="nombreProyecto" Value="TestCarga" RecordedValue="TestCarga" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="descripcionProyecto" Value="testCarga" RecordedValue="testCarga" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="logoProyecto" Value="asdas" RecordedValue="asdas" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__RequestVerificationToken" Value="{{$HIDDEN1.__RequestVerificationToken}}" RecordedValue="CfDJ8GcB2ECY0KFNlDEYwiWKbz9ZyTkZ8QKHwS2bpWzFRPQeyQG2MlhFL0aCdHo9mVIgHdJKlmkpLmTaFWqWbgvE2jOSRq0oiirQChK-JAM60t39iXlW76Mevde6cIiyffhKo4FWiWln5xD5kAHfUlA74Xs" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="c49bb56c-b7cd-4b67-afce-942bb4513d83" Version="1.1" Url="http://13.84.151.210/Proyectos/Create" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://13.84.151.210/Proyectos" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos/Create" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="nombreProyecto" Value="TestCarga" RecordedValue="TestCarga" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="descripcionProyecto" Value="testCarga" RecordedValue="testCarga" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="logoProyecto" Value="asdas" RecordedValue="asdas" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__RequestVerificationToken" Value="{{$HIDDEN1.__RequestVerificationToken}}" RecordedValue="CfDJ8GcB2ECY0KFNlDEYwiWKbz9ZyTkZ8QKHwS2bpWzFRPQeyQG2MlhFL0aCdHo9mVIgHdJKlmkpLmTaFWqWbgvE2jOSRq0oiirQChK-JAM60t39iXlW76Mevde6cIiyffhKo4FWiWln5xD5kAHfUlA74Xs" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="1d70976d-8158-458c-9414-d17eb1ca4f9a" Version="1.1" Url="https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-brands-400.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="45e43efe-b196-4dbd-b607-67bed7e95543" Version="1.1" Url="https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-regular-400.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="08cedd35-3953-4586-8fca-d709b077e5ab" Version="1.1" Url="https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://13.84.151.210/Proyectos" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Dirección URL de respuesta" Description="Comprueba que la dirección URL de respuesta tras el seguimiento de las redirecciones es la misma que la dirección URL de respuesta registrada. Se omiten los parámetros de QueryString." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Objetivo de tiempo de respuesta" Description="Valida que el tiempo de respuesta de la solicitud sea menor o igual que el objetivo de tiempo de respuesta especificado en la solicitud. Se pasarán por alto los objetivos de tiempo de respuesta que sean cero." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
