@@ -1,0 +1,11 @@
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\bin\Release\netcoreapp2.2\Datos.deps.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\bin\Release\netcoreapp2.2\Datos.runtimeconfig.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\bin\Release\netcoreapp2.2\Datos.runtimeconfig.dev.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\bin\Release\netcoreapp2.2\Datos.dll
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\bin\Release\netcoreapp2.2\Datos.pdb
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\obj\Release\netcoreapp2.2\Datos.csprojAssemblyReference.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\obj\Release\netcoreapp2.2\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\obj\Release\netcoreapp2.2\Datos.AssemblyInfoInputs.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\obj\Release\netcoreapp2.2\Datos.AssemblyInfo.cs
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\obj\Release\netcoreapp2.2\Datos.dll
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\Datos\obj\Release\netcoreapp2.2\Datos.pdb

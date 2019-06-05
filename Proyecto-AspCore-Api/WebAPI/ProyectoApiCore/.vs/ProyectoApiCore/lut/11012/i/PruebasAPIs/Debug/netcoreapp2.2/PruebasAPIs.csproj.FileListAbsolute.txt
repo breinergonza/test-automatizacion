@@ -1,0 +1,13 @@
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\PruebasAPIs\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\PruebasAPIs\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\PruebasAPIs\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\PruebasAPIs\Debug\netcoreapp2.2\PruebasAPIs.deps.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\PruebasAPIs\Debug\netcoreapp2.2\PruebasAPIs.runtimeconfig.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\PruebasAPIs\Debug\netcoreapp2.2\PruebasAPIs.runtimeconfig.dev.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\PruebasAPIs\Debug\netcoreapp2.2\PruebasAPIs.dll
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\PruebasAPIs\Debug\netcoreapp2.2\PruebasAPIs.csproj.CoreCompileInputs.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\PruebasAPIs\Debug\netcoreapp2.2\PruebasAPIs.AssemblyInfoInputs.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\PruebasAPIs\Debug\netcoreapp2.2\PruebasAPIs.AssemblyInfo.cs
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\PruebasAPIs\Debug\netcoreapp2.2\PruebasAPIs.csproj.CopyComplete
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\PruebasAPIs\Debug\netcoreapp2.2\PruebasAPIs.dll
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\PruebasAPIs\Debug\netcoreapp2.2\PruebasAPIs.csprojAssemblyReference.cache

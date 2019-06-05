@@ -1,0 +1,10 @@
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\Datos\Debug\netcoreapp2.2\Datos.deps.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\Datos\Debug\netcoreapp2.2\Datos.runtimeconfig.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\Datos\Debug\netcoreapp2.2\Datos.runtimeconfig.dev.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\Datos\Debug\netcoreapp2.2\Datos.dll
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\Datos\Debug\netcoreapp2.2\Datos.csprojAssemblyReference.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\Datos\Debug\netcoreapp2.2\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\Datos\Debug\netcoreapp2.2\Datos.AssemblyInfoInputs.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\Datos\Debug\netcoreapp2.2\Datos.AssemblyInfo.cs
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\Datos\Debug\netcoreapp2.2\Datos.csproj.CopyComplete
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\Datos\Debug\netcoreapp2.2\Datos.dll

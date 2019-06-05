@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Cuenta de Alto Costo</title>
+
+    <meta name="theme-color" content="#3063A0">
+
+    <meta name="theme-color" content="#3063A0">
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/vendor/fontawesome/css/all.css">
+    <link rel="stylesheet" href="~/css/theme.min.css" data-skin="default">
+    <link rel="stylesheet" href="~/css/theme-dark.min.css" data-skin="dark">
+    <link rel="stylesheet" href="~/css/custom.css">
+
+    <script>
+        var skin = localStorage.getItem('skin') || 'default';
+        var unusedLink = document.querySelector('link[data-skin]:not([data-skin="' + skin + '"])');
+
+        unusedLink.setAttribute('rel', '');
+        unusedLink.setAttribute('disabled', true);
+    </script>
+
+</head>
+<body>
+
+    <!--[if lt IE 10]>
+        <div class="page-message" role="alert">Usted está utilizando un <strong>navegador obsoleto</strong>. Por favor, <a class="alert-link" href="http://browsehappy.com/">actualice su navegador</a> para mejorar su experiencia y seguridad.</div>
+    <![endif]-->
+    
+    <main class="auth auth-floated">
+
+        @RenderBody()
+
+        <div id="announcement" class="auth-announcement" style="background-image: url(images/_CAC.CO_2015.png);">
+           
+        </div>
+
+    </main>
+
+
+    <script src="~/vendor/jquery/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/vendor/bootstrap/js/popper.min.js" asp-append-version="true"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.min.js" asp-append-version="true"></script>     
+    <script src="~/vendor/particles.js/particles.min.js" asp-append-version="true"></script>
+
+    <script>
+      /**
+       * Keep in mind that your scripts may not always be executed after the theme is completely ready,
+       * you might need to observe the `theme:load` event to make sure your scripts are executed after the theme is ready.
+       */
+      $(document).on('theme:init', () =>
+      {
+         @*particlesJS.load(@dom-id, @path-json, @callback (optional));*@ 
+        particlesJS.load('announcement', 'js/particles.json');
+      })
+    </script>
+    
+    <script src="~/js/theme.min.js" asp-append-version="true"></script> 
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-116692175-1');
+    </script>
+    
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Cuenta de Alto Costo</title>
+
+    <meta name="theme-color" content="#3063A0">
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600" rel="stylesheet">
+    
+    <link rel="stylesheet" href="~/vendor/open-iconic/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="~/vendor/fontawesome/css/all.css">    
+    <link rel="stylesheet" href="~/css/theme.min.css" data-skin="default">
+    <link rel="stylesheet" href="~/css/theme-dark.min.css" data-skin="dark">
+    <link rel="stylesheet" href="~/css/custom.css">
+    
+
+    <script>
+        var skin = localStorage.getItem('skin') || 'default';
+        var unusedLink = document.querySelector('link[data-skin]:not([data-skin="' + skin + '"])');
+
+        unusedLink.setAttribute('rel', '');
+        unusedLink.setAttribute('disabled', true);
+    </script>
+
+</head>
+<body>
+
+    <div class="app">
+
+        <!--[if lt IE 10]>
+            <div class="page-message" role="alert">Usted está utilizando un <strong>navegador obsoleto</strong>. Por favor, <a class="alert-link" href="http://browsehappy.com/">actualice su navegador</a> para mejorar su experiencia y seguridad.</div>
+        <![endif]-->
+
+        <header class="app-header app-header-dark">
+
+            <div class="top-bar">
+
+                <div class="top-bar-brand">
+                    <a asp-area="" asp-controller="Home" asp-action="Index">
+                        <img src="~/images/brand-inverse.png" alt="" style="height: 32px;width: auto;">
+                    </a>
+                </div>
+
+                <div class="top-bar-list">
+
+                    <div class="top-bar-item px-2 d-md-none d-lg-none d-xl-none">
+                        <button class="hamburger hamburger-squeeze" type="button" data-toggle="aside" aria-label="toggle menu">
+                            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                        </button>
+                    </div>
+
+                    <div class="top-bar-item top-bar-item-full">
+
+                    </div>
+
+                    <div class="top-bar-item top-bar-item-right px-0 d-none d-sm-flex">
+                        <ul class="header-nav nav">
+                            <li class="nav-item dropdown header-nav-dropdown">
+                                <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="oi oi-grid-three-up"></span></a>
+                                <div class="dropdown-arrow"></div>
+
+                                <div class="dropdown-menu dropdown-menu-rich dropdown-menu-right">
+
+                                    <div class="dropdown-sheets">
+                                        
+                                        <div class="dropdown-sheet-item">
+                                            <a asp-controller="Home" asp-action="Index" class="tile-wrapper">
+                                                <span class="tile tile-lg bg-pink"><i class="fa fa-tasks"></i></span> 
+                                                <span class="tile-peek">Validaciones</span>
+                                            </a>
+                                        </div>                                       
+
+                                        <div class="dropdown-sheet-item">
+                                            <a asp-controller="Home" asp-action="Index" class="tile-wrapper">
+                                                <span class="tile tile-lg bg-cyan"><i class="oi oi-document"></i></span> 
+                                                <span class="tile-peek">Archivos</span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                        <div class="dropdown">
+                            <button class="btn-account d-none d-md-flex" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="user-avatar user-avatar-md">
+                                    <img src="~/images/avatars/profile.jpg" alt="">
+                                </span>
+                                <span class="account-summary pr-lg-4 d-none d-lg-block">
+                                    <span class="account-name">Beni Arisandi</span>
+                                    <span class="account-description">Marketing Manager</span>
+                                </span>
+                            </button>
+                            <div class="dropdown-arrow dropdown-arrow-left"></div>
+                            <div class="dropdown-menu">
+                                <h6 class="dropdown-header d-none d-md-block d-lg-none"> Usuario </h6>                              
+                                <a class="dropdown-item" asp-controller="Login" asp-action="Index">
+                                    <span class="dropdown-icon oi oi-account-logout"></span> Salir
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <aside class="app-aside app-aside-expand-md app-aside-light">
+            <div class="aside-content">
+                <header class="aside-header d-block d-md-none">
+                    <button class="btn-account" type="button" data-toggle="collapse" data-target="#dropdown-aside">
+                        <span class="user-avatar user-avatar-lg"><img src="~/images/avatars/profile.jpg" alt=""></span>
+                        <span class="account-icon">
+                            <span class="fa fa-caret-down fa-lg"></span>
+                        </span> <span class="account-summary">
+                            <span class="account-name">Beni Arisandi</span>
+                            <span class="account-description">Marketing Manager</span>
+                        </span>
+                    </button>
+                    <div id="dropdown-aside" class="dropdown-aside collapse">
+                        <div class="pb-3">                            
+                            <a class="dropdown-item" asp-controller="Login" asp-action="Index">
+                                <span class="dropdown-icon oi oi-account-logout"></span> Salir
+                            </a>
+                        </div>
+                    </div>
+                </header>
+                <div class="aside-menu overflow-hidden">
+                    <nav id="stacked-menu" class="stacked-menu">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a class="menu-link" asp-area="" asp-controller="Home" asp-action="Index">
+                                    <span class="menu-icon fas fa-home"></span>
+                                    <span class="menu-text">Inicio</span>
+                                </a>
+                            </li>
+                            <li class="menu-header">Administración</li>
+                            <li class="menu-item has-child">
+                                <a href="#" class="menu-link">
+                                    <span class="menu-icon oi oi-puzzle-piece"></span>
+                                    <span class="menu-text">Coberturas</span>
+                                </a>
+                                <ul class="menu">
+                                    <li class="menu-item">
+                                        <a asp-controller="Coberturas" asp-action="Index" class="menu-link">Listado</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a asp-controller="Coberturas" asp-action="Create" class="menu-link">Agregar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item has-child">
+                                <a href="#" class="menu-link">
+                                    <span class="menu-icon oi oi-puzzle-piece"></span>
+                                    <span class="menu-text">Periodos</span>
+                                </a>
+                                <ul class="menu">
+                                    <li class="menu-item">
+                                        <a asp-controller="Periodos" asp-action="Index" class="menu-link">Listado</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="component-icons.html" class="menu-link">Agregar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item has-child">
+                                <a href="#" class="menu-link">
+                                    <span class="menu-icon oi oi-puzzle-piece"></span>
+                                    <span class="menu-text">Categorias</span>
+                                </a>
+                                <ul class="menu">
+                                    <li class="menu-item">
+                                        <a href="component-general.html" class="menu-link">Listado</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="component-icons.html" class="menu-link">Agregar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item has-child">
+                                <a href="#" class="menu-link">
+                                    <span class="menu-icon oi oi-puzzle-piece"></span>
+                                    <span class="menu-text">Formularios</span>
+                                </a>
+                                <ul class="menu">
+                                    <li class="menu-item">
+                                        <a href="component-general.html" class="menu-link">Listado</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="component-icons.html" class="menu-link">Agregar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item has-child">
+                                <a href="#" class="menu-link">
+                                    <span class="menu-icon oi oi-puzzle-piece"></span>
+                                    <span class="menu-text">Secciones</span>
+                                </a>
+                                <ul class="menu">
+                                    <li class="menu-item">
+                                        <a href="component-general.html" class="menu-link">Listado</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="component-icons.html" class="menu-link">Agregar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item has-child">
+                                <a href="#" class="menu-link">
+                                    <span class="menu-icon oi oi-puzzle-piece"></span>
+                                    <span class="menu-text">Tipos de Control</span>
+                                </a>
+                                <ul class="menu">
+                                    <li class="menu-item">
+                                        <a href="component-general.html" class="menu-link">Listado</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="component-icons.html" class="menu-link">Agregar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            @*<li><partial name="_LoginPartial" /></li>*@
+                        </ul>
+                    </nav>
+                </div>
+
+                <footer class="aside-footer border-top p-3">
+                    <button class="btn btn-light btn-block text-primary" data-toggle="skin">
+                        Salir
+                        <i class="fas fa-sign-out-alt ml-1"></i>
+                    </button>
+                </footer>
+            </div>
+
+        </aside>
+
+        <main class="app-main">
+            <div class="wrapper">
+                <div class="page">
+                    <div class="page-inner">
+                        <header class="page-title-bar">
+                            <h1 class="page-title"> Page title </h1>
+                        </header>
+
+                        <div class="page-section">
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+  
+
+    @*<environment include="Development">
+            <script src="~/lib/jquery/dist/jquery.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        </environment>
+
+        <environment exclude="Development">
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                    asp-fallback-test="window.jQuery"
+                    crossorigin="anonymous"
+                    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+            </script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"
+                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                    crossorigin="anonymous"
+                    integrity="sha256-E/V4cWE4qvAeO5MOhjtGtqDzPndRO1LBk8lJ/PR7CA4=">
+            </script>
+        </environment>*@
+        
+    <script src="~/vendor/jquery/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/vendor/bootstrap/js/popper.min.js" asp-append-version="true"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.min.js" asp-append-version="true"></script>
+    <script src="~/vendor/pace/pace.min.js" asp-append-version="true"></script>
+    <script src="~/vendor/stacked-menu/stacked-menu.min.js" asp-append-version="true"></script>
+    <script src="~/vendor/perfect-scrollbar/perfect-scrollbar.min.js" asp-append-version="true"></script>     
+    <script src="~/js/theme.min.js" asp-append-version="true"></script>
+    
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

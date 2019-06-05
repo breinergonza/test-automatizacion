@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ActividadClase</name>
+    </assembly>
+    <members>
+        <member name="M:ActividadClase.Controllers.ActividadesEquipoController.GetActividadEquipo">
+            <summary>
+            Obtener todas las relaciones entre actividades y equipos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.ActividadesEquipoController.GetActividadesEquipo(System.Int32)">
+            <summary>
+            Obtener una relación entre una actividad y un equipo a partir de su id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.ActividadesEquipoController.PutActividadesEquipo(System.Int32,Datos.Models.ActividadesEquipo)">
+            <summary>
+            Actualizar una relación entre actividades y equipos
+            </summary>
+            <param name="id"></param>
+            <param name="actividadesEquipo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.ActividadesEquipoController.PostActividadesEquipo(Datos.Models.ActividadesEquipo)">
+            <summary>
+            Agregar una relación entre una actividad y un equipo
+            </summary>
+            <param name="actividadesEquipo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.ActividadesEquipoController.DeleteActividadesEquipo(System.Int32)">
+            <summary>
+            Eliminar una relación entre una actividad y un equipo
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.EquiposController.GetEquipo">
+            <summary>
+            Obtener un listado de todos los equipos parametrizados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.EquiposController.GetEquipos(System.Int32)">
+            <summary>
+            Obtener un equipo a partir de su Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.EquiposController.PutEquipos(System.Int32,Datos.Models.Equipos)">
+            <summary>
+            Actualizar un equipo
+            </summary>
+            <param name="id"></param>
+            <param name="equipos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.EquiposController.PostEquipos(Datos.Models.Equipos)">
+            <summary>
+            Agregar un equipo
+            </summary>
+            <param name="equipos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.EquiposController.DeleteEquipos(System.Int32)">
+            <summary>
+            Eliminar un equipo a partir de su id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.EquiposProyectoController.GetEquipoProyecto">
+            <summary>
+            Obtener todas las relaciones entre equipos y proyectos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.EquiposProyectoController.GetEquiposProyecto(System.Int32)">
+            <summary>
+            Obtener una relación entre un equipo y un proyecto a partir de su Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.EquiposProyectoController.PutEquiposProyecto(System.Int32,Datos.Models.EquiposProyecto)">
+            <summary>
+            Agregar una relación entre un equipo y un proyecto
+            </summary>
+            <param name="id"></param>
+            <param name="equiposProyecto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.EquiposProyectoController.PostEquiposProyecto(Datos.Models.EquiposProyecto)">
+            <summary>
+            Agregar una relación entre un equipo y un proyecto
+            </summary>
+            <param name="equiposProyecto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.EquiposProyectoController.DeleteEquiposProyecto(System.Int32)">
+            <summary>
+            Eliminar una relación entre un equipo y un proyecto
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.IntegrantesController.GetIntegrantes">
+            <summary>
+            Metodo que devuelve todos los integrantes parametrizados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.IntegrantesController.GetIntegrante(System.Int32)">
+            <summary>
+            Obtener un integrante a partir de su id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.IntegrantesController.PutIntegrantes(System.Int32,Datos.Models.Integrantes)">
+            <summary>
+            Actualizar un integrante
+            </summary>
+            <param name="id"></param>
+            <param name="integrantes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.IntegrantesController.PostIntegrantes(Datos.Models.Integrantes)">
+            <summary>
+            Agregar un integrante
+            </summary>
+            <param name="integrantes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.IntegrantesController.DeleteIntegrantes(System.Int32)">
+            <summary>
+            Eliminar un integrante a partir de su id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.IntegrantesEquipoController.GetIntegranteEquipo">
+            <summary>
+            Obtener un listado de las relaciones de integrantes y equipos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.IntegrantesEquipoController.GetIntegrantesEquipo(System.Int32)">
+            <summary>
+            Obtener una relación entre un integrante y un equipo
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.IntegrantesEquipoController.PutIntegrantesEquipo(System.Int32,Datos.Models.IntegrantesEquipo)">
+            <summary>
+            Actualizar una relación entre integrantes y equipos
+            </summary>
+            <param name="id"></param>
+            <param name="integrantesEquipo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.IntegrantesEquipoController.PostIntegrantesEquipo(Datos.Models.IntegrantesEquipo)">
+            <summary>
+            Agregar una relación entre un integrante y un equipo
+            </summary>
+            <param name="integrantesEquipo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.IntegrantesEquipoController.DeleteIntegrantesEquipo(System.Int32)">
+            <summary>
+            Eliminar una relación entre integrantes y equipos
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.ProyectosController.GetProyecto">
+            <summary>
+            Obtener todos los proyectos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.ProyectosController.GetProyectos(System.Int32)">
+            <summary>
+            Obtener un proyecto a partir de su id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.ProyectosController.PutProyectos(System.Int32,Datos.Models.Proyectos)">
+            <summary>
+            Actualizar un proyecto
+            </summary>
+            <param name="id"></param>
+            <param name="proyectos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.ProyectosController.PostProyectos(Datos.Models.Proyectos)">
+            <summary>
+            Agregar un proyecto
+            </summary>
+            <param name="proyectos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.ProyectosController.DeleteProyectos(System.Int32)">
+            <summary>
+            Eliminar un proyecto
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.TiposDocumentoController.GetTipoDocumento">
+            <summary>
+            Obtener los tipos de documento
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.TiposDocumentoController.GetTiposDocumento(System.Int32)">
+            <summary>
+            Obtener un tipo de documento
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.TiposDocumentoController.PutTiposDocumento(System.Int32,Datos.Models.TiposDocumento)">
+            <summary>
+            Actualizar un tipo de documento
+            </summary>
+            <param name="id"></param>
+            <param name="tiposDocumento"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.TiposDocumentoController.PostTiposDocumento(Datos.Models.TiposDocumento)">
+            <summary>
+            Agregar un tipo de documento
+            </summary>
+            <param name="tiposDocumento"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ActividadClase.Controllers.TiposDocumentoController.DeleteTiposDocumento(System.Int32)">
+            <summary>
+            Eliminar un tipo e documento a partir de su id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,39 @@
+﻿@model IC.DTOAdicionales.AccesoUsuario
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<form asp-action="Ingresar" class="auth-form">
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-4">
+        <div class="mb-3">
+            @*<img class="rounded" src="~/images/brand-inverse.png" alt="" height="50">*@
+        </div>
+        <h1 class="h3"> Iniciar sesion </h1>
+    </div>
+
+    <div class="form-group mb-4">
+        <label asp-for="usuario" class="d-block text-left">Usuario</label>
+        <input asp-for="usuario" class="form-control form-control-lg" autofocus="">
+        <span asp-validation-for="usuario" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-4">
+        <label asp-for="contrasena" class="d-block text-left">Contraseña</label>
+        <input asp-for="contrasena" class="form-control form-control-lg" type="password">
+        <span asp-validation-for="contrasena" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-4">
+        <input type="submit" value="Ingresar" class="btn btn-lg btn-primary btn-block" />        
+    </div>
+
+    <p class="mb-0 px-3 text-muted text-center">
+        © 2018 Cuenta de Alto Costo. <a href="https://cuentadealtocosto.org/site/">Terminos y condiciones</a>
+    </p>
+
+</form>

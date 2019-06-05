@@ -1,0 +1,13 @@
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\ActividadClase\Debug\netcoreapp2.2\ActividadClase.deps.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\ActividadClase\Debug\netcoreapp2.2\ActividadClase.runtimeconfig.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\ActividadClase\Debug\netcoreapp2.2\ActividadClase.runtimeconfig.dev.json
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\b\ActividadClase\Debug\netcoreapp2.2\ActividadClase.dll
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\ActividadClase\Debug\netcoreapp2.2\ActividadClase.csprojAssemblyReference.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\ActividadClase\Debug\netcoreapp2.2\ActividadClase.csproj.CoreCompileInputs.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\ActividadClase\Debug\netcoreapp2.2\ActividadClase.RazorAssemblyInfo.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\ActividadClase\Debug\netcoreapp2.2\ActividadClase.RazorAssemblyInfo.cs
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\ActividadClase\Debug\netcoreapp2.2\ActividadClase.AssemblyInfoInputs.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\ActividadClase\Debug\netcoreapp2.2\ActividadClase.AssemblyInfo.cs
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\ActividadClase\Debug\netcoreapp2.2\ActividadClase.RazorTargetAssemblyInfo.cache
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\ActividadClase\Debug\netcoreapp2.2\ActividadClase.csproj.CopyComplete
+C:\Users\Familia\Documents\ProyectosDesarrollo\WebApi\WebAPI\ProyectoApiCore\.vs\ProyectoApiCore\lut\0\i\ActividadClase\Debug\netcoreapp2.2\ActividadClase.dll
