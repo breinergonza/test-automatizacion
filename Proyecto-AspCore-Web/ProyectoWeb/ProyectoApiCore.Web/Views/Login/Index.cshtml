@@ -1,0 +1,93 @@
+﻿@model IC.DTOAdicionales.AccesoUsuario
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+
+<div class="limiter">
+    <div class="container-login100">
+        <div class="wrap-login100">
+            <div class="login100-pic js-tilt" data-tilt>
+                <img src="images/img-01.png" alt="IMG">
+            </div>
+
+            <form  asp-action="Ingresar" class="login100-form validate-form">
+                <span class="login100-form-title">
+                    Trello Test
+                </span>
+
+                <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                    <input asp-for="usuario" class="input100" type="text" name="usuario" placeholder="Usuario">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Password is required">
+                    <input asp-for="contrasena" class="input100" type="password" name="contrasena" placeholder="contrasena">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    </span>
+                </div>
+					
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn">
+                        Login
+                    </button>
+                </div>
+
+                <div class="text-center p-t-12">
+                    <span class="txt1">
+                        Forgot
+                    </span>
+                    <a class="txt2" href="#">
+                        Username / Password?
+                    </a>
+                </div>
+
+                <div class="text-center p-t-136">
+                    <a class="txt2" href="#">
+                        Create your Account
+                        <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@*<form asp-action="Ingresar" class="auth-form">
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-4">
+        <div class="mb-3">
+         </div>
+        <h1 class="h3"> Iniciar sesion </h1>
+    </div>
+
+    <div class="form-group mb-4">
+        <label asp-for="usuario" class="d-block text-left">Usuario</label>
+        <input asp-for="usuario" class="form-control form-control-lg" autofocus="">
+        <span asp-validation-for="usuario" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-4">
+        <label asp-for="contrasena" class="d-block text-left">Contraseña</label>
+        <input asp-for="contrasena" class="form-control form-control-lg" type="password">
+        <span asp-validation-for="contrasena" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-4">
+        <input type="submit" value="Ingresar" class="btn btn-lg btn-primary btn-block" />        
+    </div>
+
+    <p class="mb-0 px-3 text-muted text-center">
+        © 2018 Cuenta de Alto Costo. <a href="https://cuentadealtocosto.org/site/">Terminos y condiciones</a>
+    </p>
+
+</form>*@

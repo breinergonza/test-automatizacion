@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="es-co">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <title>@ViewData["Title"] - Trello App</title>
+    
+    <link rel="icon" type="image/png"      href="~/images/icons/favicon.ico"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="~/css/content.css">
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.18/af-2.3.3/b-1.5.6/cr-1.5.0/r-2.2.2/sc-2.0.0/datatables.min.css" />
+
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row ">
+                <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary col-12">
+                    <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                        <i class="fab fa-algolia"></i>
+                        <strong>TrelloApp</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                   aria-expanded="false"><i class="fas fa-chalkboard-teacher"> </i>Proyectos</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-controller="Proyectos" asp-action="Index">
+                                        <i class="far fa-list-alt"></i> Ver Proyectos
+                                    </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" style="background:rgba(13, 255, 179, 0.5)" asp-controller="Proyectos" asp-action="Create">
+                                        <i class="fas fa-plus"></i> Agregar Proyecto
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                   aria-expanded="false"><i class="fas fa-chalkboard-teacher"> </i>Equipos</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-controller="Equipos" asp-action="Index">
+                                        <i class="far fa-list-alt"></i> Ver Equipos
+                                    </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" style="background:rgba(13, 255, 179, 0.5)" asp-controller="Equipos" asp-action="Create">
+                                        <i class="fas fa-plus"></i> Agregar Equipo
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fab fa-algolia"></i> Tareas</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    @RenderBody()
+
+    <div class="container-fluid fixed-bottom pl-2 pb-3 footer">
+        <div class="row">
+            <div class="col-12">
+                <p>© All rights reserved @DateTime.Now.Year | Andrei, Juan, Breitner</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.18/af-2.3.3/b-1.5.6/cr-1.5.0/r-2.2.2/sc-2.0.0/datatables.min.js"></script>
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

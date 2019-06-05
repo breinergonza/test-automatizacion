@@ -1,0 +1,103 @@
+﻿@model IEnumerable<ProyectoApiCore.Web.Integrantes>
+
+@{
+    ViewData["Title"] = "Integrantes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="col-md-10 container">
+
+        <br /><br /><br />
+
+        <div class="row justify-content-center pb-5">
+
+            <div id="proyectos" class="col-md-12 pb-5">
+
+                <div class="card bg-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Integrantes</h5>
+                        <table class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.numeroDocumento)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.primerNombre)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.segundoNombre)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.primerApellido)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.segundoApellido)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.fechaNacimiento)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.idTipoDocumento)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.numeroDocumento)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.primerNombre)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.segundoNombre)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.primerApellido)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.segundoApellido)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.fechaNacimiento)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.idTipoDocumento)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" asp-route-id="@item.idIntegrante">Editar</a> |
+                                            <a asp-action="Details" asp-route-id="@item.idIntegrante">Detalles</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.idIntegrante">Eliminar</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-8 datePorject">
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="far fa-calendar-alt"></i> Fecha :
+                                        <b>
+                                            @DateTime.Now.Date.ToString("f")
+                                        </b>
+                                    </small>
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 text-right">
+                                <a asp-action="Create" class="btn btn-info">Agregar Integrante</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

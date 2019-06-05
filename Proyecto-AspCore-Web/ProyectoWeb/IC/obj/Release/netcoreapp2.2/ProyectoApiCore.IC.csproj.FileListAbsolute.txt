@@ -1,0 +1,11 @@
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\bin\Release\netcoreapp2.2\ProyectoApiCore.IC.deps.json
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\bin\Release\netcoreapp2.2\ProyectoApiCore.IC.runtimeconfig.json
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\bin\Release\netcoreapp2.2\ProyectoApiCore.IC.runtimeconfig.dev.json
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\bin\Release\netcoreapp2.2\ProyectoApiCore.IC.dll
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\bin\Release\netcoreapp2.2\ProyectoApiCore.IC.pdb
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\obj\Release\netcoreapp2.2\ProyectoApiCore.IC.csprojAssemblyReference.cache
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\obj\Release\netcoreapp2.2\ProyectoApiCore.IC.csproj.CoreCompileInputs.cache
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\obj\Release\netcoreapp2.2\ProyectoApiCore.IC.AssemblyInfoInputs.cache
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\obj\Release\netcoreapp2.2\ProyectoApiCore.IC.AssemblyInfo.cs
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\obj\Release\netcoreapp2.2\ProyectoApiCore.IC.dll
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\IC\obj\Release\netcoreapp2.2\ProyectoApiCore.IC.pdb

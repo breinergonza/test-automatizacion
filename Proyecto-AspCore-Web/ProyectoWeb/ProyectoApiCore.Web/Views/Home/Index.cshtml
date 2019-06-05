@@ -1,0 +1,347 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+
+<div class="proyectos">
+    <div class="box-cont pt-5">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8">
+                    <h2 class="headerText d-block text-center">Proyectos</h2>
+                </div>
+
+                <div class="">
+                    <div class="col-md-4 text-right">
+                        <a href="http://13.84.151.210/Proyectos/Create" target="_blank" class="btn btn-secondary">
+                            Crear
+                            Proyecto
+                        </a>
+                    </div>
+                </div>
+
+                <div id="proyectos" class="col-md-12 pb-5">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="equipos">
+    <div class="box-cont pt-5">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8">
+                    <h2 class="headerText d-block text-center">Equipos</h2>
+                </div>
+
+                <div class="">
+                    <div class="col-md-4 text-right">
+                        <button href="#" id="verTareas" data-tarea="tarea">
+                            Ver
+                            tareas
+                        </button>
+                    </div>
+                </div>
+
+                <div id="equipoSelect">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="tareas">
+    <div class="box-cont">
+        <div class="boxScroll">
+
+
+            <!-- item -->
+            <div class="list-wrapper">
+                <div class="list js-list-content">
+                    <div class="list-header">
+                        <h2 class="list-header-name-assist js-list-name-assist" dir="auto">To Do</h2>
+                    </div>
+                    <div class="list-cards">
+                        <div id="actividades" class="list-card boxInfo">
+                            <!-- Button trigger modal -->
+
+
+                        </div>
+
+
+
+                    </div>
+                    <a class="open-card-composer js-open-card-composer" data-toggle="modal"
+                       data-target="#exampleModalScrollable">
+                        <span class="icon-sm icon-add"></span><span class="js-add-a-card hide"><i class="fas fa-plus"></i>Añada una tarjeta</span>
+                    </a>
+                </div>
+            </div>
+            <!--  fin item -->
+            <!-- item -->
+            <div class="list-wrapper">
+                <div class="list js-list-content">
+                    <div class="list-header">
+                        <h2 class="list-header-name-assist js-list-name-assist" dir="auto">Doing</h2>
+                    </div>
+                    <a class="open-card-composer js-open-card-composer" data-toggle="modal"
+                       data-target="#exampleModalScrollable">
+                        <span class="icon-sm icon-add"></span><span class="js-add-a-card hide"><i class="fas fa-plus"></i>Añada una tarjeta</span>
+                    </a>
+                </div>
+            </div>
+            <!--  fin item -->
+            <!-- item -->
+            <div class="list-wrapper">
+                <div class="list js-list-content">
+                    <div class="list-header">
+                        <h2 class="list-header-name-assist js-list-name-assist" dir="auto">Done</h2>
+                    </div>
+                    <div class="list-cards">
+                    </div>
+                    <a class="open-card-composer js-open-card-composer" data-toggle="modal"
+                       data-target="#exampleModalScrollable">
+                        <span class="icon-sm icon-add"></span><span class="js-add-a-card hide"><i class="fas fa-plus"></i>Añada una tarjeta</span>
+                    </a>
+                </div>
+            </div>
+            <!--  fin item -->
+            <!-- item -->
+            <div class="list-wrapper">
+                <div class="addList text-center">
+                    <span class="list-header-name-assist js-list-name-assist" dir="auto">
+                        <i class="fas fa-plus"></i> Añada otra
+                        lista
+                    </span>
+                </div>
+            </div>
+            <!--  fin item -->
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <!-- K.	Crear rva de equipaje. copio primer pantallazo de plantilla
+                      <div class="window-header-inline-content quiet js-current-list"><p class="u-inline-block u-bottom">En la lista <a href="#" class="js-open-move-from-header">To Do</a></p></div> -->
+                </h5>
+            </div>
+            <div class="modal-body">
+                <div class="boxComentarios">
+                    <h3>Añadir comentario</h3>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg col-12">Guardar</button>
+                    <br>
+                    <div class="comment-too-long-warning">
+                        <p>Su comentario es demasiado largo. Puede añadirlo como texto adjunto o en varias partes.</p>
+                        <input class="primary js-attach-comment" type="file" value="Añadir como un adjunto" tabindex="4">
+                    </div>
+
+                    <div class="list-group comments-box">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small>3 days ago</small>
+                            </div>
+                            <p class="mb-1">
+                                Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                                blandit.
+                            </p>
+                            <small>Donec id elit non mi porta.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">
+                                Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                                blandit.
+                            </p>
+                            <small class="text-muted">Donec id elit non mi porta.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">
+                                Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                                blandit.
+                            </p>
+                            <small class="text-muted">Donec id elit non mi porta.</small>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- FORM proyecto -->
+                <div class="boxProyecto mb-5 mt-5">
+                    <ul class="list-group">
+                        <li class="list-group-item active text-center"> <b>Campos del Proyecto</b> </li>
+                        <li class="list-group-item">
+                            <div class="form-group pt-2 pb-0 pr-3">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                       placeholder="Nombre proyecto">
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-group pt-2 pb-0 pr-2">
+                                <label for="exampleFormControlSelect1">Seleccione un equipo:</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Equipo de ux</option>
+                                    <option>Equipo de ux</option>
+                                    <option>Equipo de ux</option>
+                                    <option>Equipo de ux</option>
+                                    <option>Equipo de ux</option>
+                                </select>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="form-group pl-0 pt-2 pb-0 pr-3">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                       placeholder="Descipción del proyecto">
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <button type="button"
+                                    class="btn btn-outline-success d-block col-12">
+                                Crear
+                            </button>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+                <!-- FIN FORM proyecto -->
+                <!-- FORM integrantes -->
+                <div class="boxintegrantes mb-5 mt-5">
+                    <ul class="list-group">
+                        <li class="list-group-item active text-center"> <b>Campos de integrantes</b> </li>
+                        <li class="list-group-item">
+                            <div class="form-group pt-2 pb-0 pr-3">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                       placeholder="Primer Nombre">
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="form-group pt-2 pb-0 pr-3">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                       placeholder="Segundo Nombre">
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="form-group pt-2 pb-0 pr-3">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                       placeholder="Primer Apellido">
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="form-group pt-2 pb-0 pr-3">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                       placeholder="Segundo Apellido">
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="form-group pt-2 pb-0 pr-3">
+                                <label class="pl-2"><i class="far fa-calendar-alt"></i> Fecha de nacimiento</label>
+                                <input type="date" name="bday" min="1000-01-01" max="3000-12-31" class="form-control">
+
+
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="form-group pt-2 pb-0 pr-3">
+                                <label for="exampleFormControlFile1">Foto</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="list-group-item">
+                            <button type="button"
+                                    class="btn btn-outline-success d-block col-12">
+                                Crear
+                            </button>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+                <!-- FIN FORM integrantes -->
+                <!-- FORM Actividad -->
+            <div class="boxintegrantes mb-5 mt-5">
+                <ul class="list-group">
+                    <li class="list-group-item active text-center"> <b>Campos de Actividad</b> </li>
+                    <li class="list-group-item">
+                        <div class="form-group pt-2 pb-0 pr-3">
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                   placeholder="Nombre Actividad">
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group pt-2 pb-0 pr-3">
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                   placeholder="Descipción de la Actividad">
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group pt-2 pb-0 pr-3">
+                            <label class="pl-2"><i class="far fa-calendar-alt"></i> Fecha de inicio</label>
+                            <input type="date" name="bday" min="1000-01-01" max="3000-12-31" class="form-control">
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="form-group pt-2 pb-0 pr-3">
+                            <label class="pl-2"><i class="far fa-calendar-alt"></i> Fecha de finalización</label>
+                            <input type="date" name="bday" min="1000-01-01" max="3000-12-31" class="form-control">
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <button type="button"
+                                class="btn btn-outline-success d-block col-12">
+                            Crear
+                        </button>
+                    </li>
+
+
+
+                </ul>
+            </div>
+            
+                
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <div class="btn btn-outline-light btn-lg" data-dismiss="modal">Cerrar</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="~/js/app.js"></script>

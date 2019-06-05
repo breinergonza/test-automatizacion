@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ProyectoApiCore.Web.Actividades>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nombreActividad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.descripcionActividad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaFin)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombreActividad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descripcionActividad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaFin)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idActividad">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.idActividad">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.idActividad">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

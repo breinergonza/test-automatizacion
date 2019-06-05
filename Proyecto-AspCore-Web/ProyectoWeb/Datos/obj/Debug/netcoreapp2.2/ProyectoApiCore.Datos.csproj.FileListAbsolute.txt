@@ -1,0 +1,11 @@
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\bin\Debug\netcoreapp2.2\ProyectoApiCore.Datos.deps.json
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\bin\Debug\netcoreapp2.2\ProyectoApiCore.Datos.runtimeconfig.json
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\bin\Debug\netcoreapp2.2\ProyectoApiCore.Datos.runtimeconfig.dev.json
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\bin\Debug\netcoreapp2.2\ProyectoApiCore.Datos.dll
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\bin\Debug\netcoreapp2.2\ProyectoApiCore.Datos.pdb
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\obj\Debug\netcoreapp2.2\ProyectoApiCore.Datos.csprojAssemblyReference.cache
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\obj\Debug\netcoreapp2.2\ProyectoApiCore.Datos.csproj.CoreCompileInputs.cache
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\obj\Debug\netcoreapp2.2\ProyectoApiCore.Datos.AssemblyInfoInputs.cache
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\obj\Debug\netcoreapp2.2\ProyectoApiCore.Datos.AssemblyInfo.cs
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\obj\Debug\netcoreapp2.2\ProyectoApiCore.Datos.dll
+C:\Users\Familia\Documents\especializacion\1er-semestre\informatica-1\ProyectoWeb\Datos\obj\Debug\netcoreapp2.2\ProyectoApiCore.Datos.pdb

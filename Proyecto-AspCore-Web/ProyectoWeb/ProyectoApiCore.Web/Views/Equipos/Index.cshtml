@@ -1,0 +1,82 @@
+﻿@model IEnumerable<ProyectoApiCore.Web.Equipos>
+
+@{
+    ViewData["Title"] = "Equipos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="col-md-10 container">
+
+    <br /><br /><br />
+
+    <div class="row justify-content-center pb-5">
+
+        <div id="proyectos" class="col-md-12 pb-5">
+
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title">Equipos</h5>
+                    
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.nombreEquipo)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.descripcionEquipo)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.logoEquipo)
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.nombreEquipo)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.descripcionEquipo)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.logoEquipo)
+                                    </td>
+                                    <td>
+                                        <a asp-action="Edit" asp-route-id="@item.idEquipo">Editar</a> |
+                                        <a asp-action="Details" asp-route-id="@item.idEquipo">Detailles</a> |
+                                        <a asp-action="Delete" asp-route-id="@item.idEquipo">Eliminar</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-8 datePorject">
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <i class="far fa-calendar-alt"></i> Fecha :
+                                    <b>
+                                        @DateTime.Now.Date.ToString("f")
+                                    </b>
+                                </small>
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 text-right">
+                            <a asp-action="Create" class="btn btn-info">Agregar Equipo</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

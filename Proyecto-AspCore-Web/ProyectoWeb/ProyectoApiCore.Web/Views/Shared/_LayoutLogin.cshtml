@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Trello App</title>
+
+    <meta name="theme-color" content="#3063A0">
+
+    <meta name="theme-color" content="#3063A0">
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600" rel="stylesheet">
+
+    	
+    <link rel="icon" type="image/png"      href="~/images/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="~/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="~/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/css/main.css">
+    
+    <script>
+        var skin = localStorage.getItem('skin') || 'default';
+        var unusedLink = document.querySelector('link[data-skin]:not([data-skin="' + skin + '"])');
+
+        unusedLink.setAttribute('rel', '');
+        unusedLink.setAttribute('disabled', true);
+    </script>
+
+</head>
+<body>
+
+    <!--[if lt IE 10]>
+        <div class="page-message" role="alert">Usted está utilizando un <strong>navegador obsoleto</strong>. Por favor, <a class="alert-link" href="http://browsehappy.com/">actualice su navegador</a> para mejorar su experiencia y seguridad.</div>
+    <![endif]-->
+    
+    <main class="auth auth-floated">
+
+        @RenderBody()
+
+        <div id="announcement" class="auth-announcement" style="background-image: url(images/_CAC.CO_2015.png);">
+           
+        </div>
+
+    </main>
+
+
+    @*<script src="~/vendor/jquery/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/vendor/bootstrap/js/popper.min.js" asp-append-version="true"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.min.js" asp-append-version="true"></script>     
+<script src="~/vendor/particles.js/particles.min.js" asp-append-version="true"></script>*@
+
+	
+<script src="~/vendor/jquery/jquery-3.2.1.min.js" asp-append-version="true"></script>
+<script src="~/vendor/bootstrap/js/popper.js" asp-append-version="true"></script>
+<script src="~/vendor/bootstrap/js/bootstrap.min.js" asp-append-version="true"></script>
+<script src="~/vendor/select2/select2.min.js" asp-append-version="true"></script>
+<script src="~/vendor/tilt/tilt.jquery.min.js" asp-append-version="true"></script>
+
+     <script>
+      $(document).on('theme:init', () =>
+      {
+        particlesJS.load('announcement', 'js/particles.json');
+      })
+
+      $('.js-tilt').tilt({
+          scale: 1.1
+      })
+    </script>
+
+<script src="~/js/main.js"></script>
+
+<script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-116692175-1');
+    </script>
+    
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
