@@ -73,3 +73,21 @@ En esta serie de ejercicios practicos veremos la puesta en practica los niveles 
 ## Test de GUI en Azure DevOps
 ![Backlog Scrum](https://github.com/breinergonza/test-automatizacion/blob/master/Pruebas-Interfaz-Grafica/Test-GUI-1.png?raw=true)
 
+# Pruebas de Calidad de Codigo
+
+# [Url: Pruebas de Calidad](http://13.84.151.210:9000/)
+
+## Pagina Principal con Proyectos Analizados
+![Pagina Principal](https://github.com/breinergonza/test-automatizacion/blob/master/Pruebas-Calidad-Codigo/1-PaginaPrincipal-ProyectosAnalizados.png?raw=true)
+
+## Indicadores por Proyecto
+![Indicadores por Proyecto-1](https://github.com/breinergonza/test-automatizacion/blob/master/Pruebas-Calidad-Codigo/2-Indicadores-por-proyecto.png?raw=true)
+
+![Indicadores por Proyecto-2](https://github.com/breinergonza/test-automatizacion/blob/master/Pruebas-Calidad-Codigo/3-Indicadores-proyecto-web.png?raw=true)
+
+![Indicadores por Proyecto-3](https://github.com/breinergonza/test-automatizacion/blob/master/Pruebas-Calidad-Codigo/4-Indicadores-proyecto-api.png?raw=true)
+
+## Busg encontrados en el proyecto Web
+![Bugs-1](https://github.com/breinergonza/test-automatizacion/blob/master/Pruebas-Calidad-Codigo/5-Buggs-encontrados-proyecto-web.png?raw=true)
+
+![Bugs-2](https://github.com/breinergonza/test-automatizacion/blob/master/Pruebas-Calidad-Codigo/6-Detalle-bug-en-proyecto-web.png?raw=true)
